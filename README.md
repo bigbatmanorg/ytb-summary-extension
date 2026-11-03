@@ -20,10 +20,14 @@ The caption and audio logic is a small port of what [yt-dlp](https://github.com/
 
 ## Install (developer mode)
 
-1. Download `ytb-summary-extension-0.1.0.zip` from the [latest release](https://github.com/bigbatmanorg/ytb-summary-extension/releases/latest) and unzip it. Or clone this repo; there is no build step.
+1. Download `ytb-summary-extension-<version>.zip` from the [latest release](https://github.com/bigbatmanorg/ytb-summary-extension/releases/latest) and unzip it. Or clone this repo; there is no build step.
 2. Open `chrome://extensions` (Edge: `edge://extensions`) and turn on **Developer mode**.
 3. Click **Load unpacked** and pick the folder that contains `manifest.json`.
 4. The settings page opens. Fill it in, then open any `youtube.com/watch?v=…` page and click the extension's icon (pin it from the puzzle-piece menu).
+
+The panel belongs to the tab you opened it on. Other tabs and windows don't show it. Click the icon again to close it. It also closes when that tab leaves YouTube videos, and it reloads for the new video when you move to another one.
+
+Updating from 0.1.0: unzip the new version over the old folder, then press the reload button on the extension's card in `chrome://extensions`.
 
 Requires Chrome / Edge 116 or newer (side panel API).
 
@@ -45,7 +49,7 @@ Settings live in `chrome.storage.local` and are not synced.
 ## How it works
 
 ```
-toolbar click → side panel (extension page)
+toolbar click → side panel for that tab only (extension page, src/sidepanel.js toggles it)
    │  chrome.tabs.sendMessage
    ▼
 content script on youtube.com ── same-origin fetch ──► /youtubei/v1/player, /next, /api/timedtext
@@ -85,7 +89,7 @@ The second command uses `.env.local` (see below).
 * Permissions: `youtube.com` and `googlevideo.com` (captions, audio); your endpoint's host, requested at runtime; `sidePanel`, `storage`, `tabs`, `scripting` (to inject into tabs that were open before install).
 * Results are cached per video in `chrome.storage.session` (cleared when the browser closes).
 
-## Limitations (v0.1.0, November 2026)
+## Limitations (November 2026)
 
 * **YouTube's bot check.** When YouTube flags your network ("Sign in to confirm you're not a bot"), the JS-less clients stop answering. Captions still work through step 3, but **speech-to-text has no audio URL**, and the panel says so. The web player itself only streams SABR, which has no plain audio URL to reuse. A future option is recording the tab's audio in real time.
 * **PO-token step needs a real browser session.** In automated or headless Chromium (Playwright), YouTube rejects the player's tokens, so that path can't be tested in CI. It was verified by hand in a regular browser.
@@ -115,6 +119,12 @@ node scripts/e2e.mjs dQw4w9WgXcQ iKx3gAODybU
 Headless Chromium loads the unpacked extension, opens each video and checks the panel. Add `--stt` to force the speech-to-text path.
 
 ```bash
+node scripts/e2e-panel.mjs
+```
+
+Clicks the real toolbar icon (DevTools `Extensions.triggerAction`) across tabs and windows, and checks that the panel stays on its own tab and toggles. It needs no LLM endpoint. Pass `--ext DIR` to run it against another checkout.
+
+```bash
 npm run zip
 ```
 
@@ -138,6 +148,7 @@ YTSUM_STT_MODEL=whisper-1
 | `src/lib/openai.js` | `/chat/completions`, `/audio/transcriptions`, `/models` |
 | `src/lib/summarize.js` | prompts, map-reduce, reply parsing |
 | `src/content.js`, `src/page.js` | youtube.com content script (isolated world) and page script (MAIN world) |
+| `src/sidepanel.js`, `src/background.js` | tab-scoped side panel: toggle on icon click, close on navigation |
 | `src/panel/`, `src/options/` | side panel and settings UI |
 
 ## License

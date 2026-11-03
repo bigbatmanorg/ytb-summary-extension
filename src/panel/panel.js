@@ -9,8 +9,21 @@ import { renderMarkdown } from './md.js';
 
 const $ = (id) => document.getElementById(id);
 const params = new URLSearchParams(location.search);
-// ?tabId= pins the panel to one tab (used by tests and when opened as a page).
+// The background opens one panel per tab as panel.html?tabId=N (tests open it as a page the same way).
 const pinnedTabId = params.has('tabId') ? Number(params.get('tabId')) : null;
+
+// Tell the background this tab's panel is open, so the next icon click closes it.
+// The port also keeps the service worker (and that knowledge) alive.
+function connectToBackground() {
+  if (pinnedTabId == null) return;
+  const port = chrome.runtime.connect({ name: `panel:${pinnedTabId}` });
+  const ping = setInterval(() => port.postMessage('ping'), 20000);
+  port.onDisconnect.addListener(() => {
+    clearInterval(ping);
+    setTimeout(connectToBackground, 500); // service worker restarted
+  });
+}
+connectToBackground();
 
 const state = {
   tabId: null,
