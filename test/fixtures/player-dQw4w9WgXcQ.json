@@ -1,0 +1,197 @@
+{
+ "playabilityStatus": {
+  "status": "OK"
+ },
+ "videoDetails": {
+  "videoId": "dQw4w9WgXcQ",
+  "title": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+  "lengthSeconds": "213",
+  "channelId": "UCuAXFkgsw1L7xaCfnd5JJOw",
+  "isOwnerViewing": false,
+  "shortDescription": "The official video for “Never Gonna Give You Up” by Rick Astley. \n\nNever: The Autobiography 📚 OUT NOW! \nFollow this link to get your copy and listen to Rick’s ‘Never’ playlist ❤️ #RickAstleyNever\nhttps://linktr.ee/rickastleynever\n\n“Never Gonna Give You Up” was a global smash on its release in July 1987, topping the charts in 25 countries including Rick’s native UK and the US Billboard Hot 100.  It also won the Brit Award for Best single in 1988. Stock Aitken and Waterman wrote and produced the track which was the lead-off single and lead track from Rick’s debut LP “Whenever You Need Somebody”.  The album was itself a UK number one and would go on to sell over 15 million copies worldwide.\n\nThe legendary video was directed by Simon West – who later went on to make Hollywood blockbusters such as Con Air, Lara Croft – Tomb Raider and The Expendables 2.  The video passed the 1bn YouTube views milestone on 28 July 2021.\n\nSubscribe to the official Rick Astley YouTube channel: https://RickAstley.lnk.to/YTSubID\n\nFollow Rick Astley:\nFacebook: https://RickAstley.lnk.to/FBFollowID \nTwitter: https://RickAstley.lnk.to/TwitterID \nInstagram: https://RickAstley.lnk.to/InstagramID \nWebsite: https://RickAstley.lnk.to/storeID \nTikTok: https://RickAstley.lnk.to/TikTokID\n\nListen to Rick Astley:\nSpotify: https://RickAstley.lnk.to/SpotifyID \nApple Music: https://RickAstley.lnk.to/AppleMusicID \nAmazon Music: https://RickAstley.lnk.to/AmazonMusicID \nDeezer: https://RickAstley.lnk.to/DeezerID \n\nLyrics:\nWe’re no strangers to love\nYou know the rules and so do I\nA full commitment’s what I’m thinking of\nYou wouldn’t get this from any other guy\n\nI just wanna tell you how I’m feeling\nGotta make you understand\n\nNever gonna give you up\nNever gonna let you down\nNever gonna run around and desert you\nNever gonna make you cry\nNever gonna say goodbye\nNever gonna tell a lie and hurt you\n\nWe’ve known each other for so long\nYour heart’s been aching but you’re too shy to say it\nInside we both know what’s been going on\nWe know the game and we’re gonna play it\n\nAnd if you ask me how I’m feeling\nDon’t tell me you’re too blind to see\n\nNever gonna give you up\nNever gonna let you down\nNever gonna run around and desert you\nNever gonna make you cry\nNever gonna say goodbye\nNever gonna tell a lie and hurt you\n\n#RickAstley #NeverGonnaGiveYouUp #WheneverYouNeedSomebody #OfficialMusicVideo",
+  "isCrawlable": true,
+  "allowRatings": true,
+  "viewCount": "1833234129",
+  "author": "Rick Astley",
+  "isPrivate": false,
+  "isUnpluggedCorpus": false,
+  "isLiveContent": false,
+  "isTvfilmVideo": false
+ },
+ "captions": {
+  "playerCaptionsTracklistRenderer": {
+   "captionTracks": [
+    {
+     "baseUrl": "https://www.youtube.com/api/timedtext?v=dQw4w9WgXcQ&ei=x&caps=asr&opi=x&xoaf=5&xowf=1&hl=en&ip=0.0.0.0&ipbits=x&expire=x&sparams=x&signature=x&key=x&lang=en&fmt=srv3",
+     "name": {
+      "runs": [
+       {
+        "text": "English"
+       }
+      ]
+     },
+     "vssId": ".en",
+     "languageCode": "en",
+     "isTranslatable": true,
+     "trackName": ""
+    },
+    {
+     "baseUrl": "https://www.youtube.com/api/timedtext?v=dQw4w9WgXcQ&ei=x&caps=asr&opi=x&xoaf=5&xowf=1&hl=en&ip=0.0.0.0&ipbits=x&expire=x&sparams=x&signature=x&key=x&kind=asr&lang=en&fmt=srv3",
+     "name": {
+      "runs": [
+       {
+        "text": "English (auto-generated)"
+       }
+      ]
+     },
+     "vssId": "a.en",
+     "languageCode": "en",
+     "kind": "asr",
+     "isTranslatable": true,
+     "trackName": ""
+    },
+    {
+     "baseUrl": "https://www.youtube.com/api/timedtext?v=dQw4w9WgXcQ&ei=x&caps=asr&opi=x&xoaf=5&xowf=1&hl=en&ip=0.0.0.0&ipbits=x&expire=x&sparams=x&signature=x&key=x&lang=de-DE&fmt=srv3",
+     "name": {
+      "runs": [
+       {
+        "text": "German (Germany)"
+       }
+      ]
+     },
+     "vssId": ".de-DE",
+     "languageCode": "de-DE",
+     "isTranslatable": true,
+     "trackName": ""
+    },
+    {
+     "baseUrl": "https://www.youtube.com/api/timedtext?v=dQw4w9WgXcQ&ei=x&caps=asr&opi=x&xoaf=5&xowf=1&hl=en&ip=0.0.0.0&ipbits=x&expire=x&sparams=x&signature=x&key=x&lang=ja&fmt=srv3",
+     "name": {
+      "runs": [
+       {
+        "text": "Japanese"
+       }
+      ]
+     },
+     "vssId": ".ja",
+     "languageCode": "ja",
+     "isTranslatable": true,
+     "trackName": ""
+    },
+    {
+     "baseUrl": "https://www.youtube.com/api/timedtext?v=dQw4w9WgXcQ&ei=x&caps=asr&opi=x&xoaf=5&xowf=1&hl=en&ip=0.0.0.0&ipbits=x&expire=x&sparams=x&signature=x&key=x&lang=pt-BR&fmt=srv3",
+     "name": {
+      "runs": [
+       {
+        "text": "Portuguese (Brazil)"
+       }
+      ]
+     },
+     "vssId": ".pt-BR",
+     "languageCode": "pt-BR",
+     "isTranslatable": true,
+     "trackName": ""
+    },
+    {
+     "baseUrl": "https://www.youtube.com/api/timedtext?v=dQw4w9WgXcQ&ei=x&caps=asr&opi=x&xoaf=5&xowf=1&hl=en&ip=0.0.0.0&ipbits=x&expire=x&sparams=x&signature=x&key=x&lang=es-419&fmt=srv3",
+     "name": {
+      "runs": [
+       {
+        "text": "Spanish (Latin America)"
+       }
+      ]
+     },
+     "vssId": ".es-419",
+     "languageCode": "es-419",
+     "isTranslatable": true,
+     "trackName": ""
+    }
+   ],
+   "audioTracks": [
+    {
+     "captionTrackIndices": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      1
+     ],
+     "defaultCaptionTrackIndex": 0,
+     "hasDefaultTrack": true,
+     "captionsInitialState": "CAPTIONS_INITIAL_STATE_OFF_RECOMMENDED"
+    }
+   ],
+   "defaultAudioTrackIndex": 0
+  }
+ },
+ "streamingData": {
+  "adaptiveFormats": [
+   {
+    "itag": 139,
+    "mimeType": "audio/mp4; codecs=\"mp4a.40.5\"",
+    "contentLength": "1300631",
+    "approxDurationMs": "213159",
+    "initRange": {
+     "start": "0",
+     "end": "731"
+    },
+    "indexRange": {
+     "start": "732",
+     "end": "1027"
+    },
+    "bitrate": 50152,
+    "url": "https://rr1---sn-example.googlevideo.com/videoplayback?expire=x&ei=x&ip=0.0.0.0&id=x&itag=139&source=youtube&requiressl=yes&xpc=x&cps=1155&met=x&mh=x&mm=x&mn=x&ms=x&mv=x&mvi=1&pcm2cms=yes&pl=x&rms=x&initcwndbps=x&bui=x&spc=x&vprv=x&svpuc=x&mime=audio%2Fmp4&rqh=1&gir=yes&clen=1300631&dur=213.159&lmt=1766955925459591&mt=1793679670&fvip=5&epbp=1&keepalive=yes&fexp=51565115%2C52184236%2C52271469%2C52338435&c=ANDROID_VR&txp=5532534&sparams=x&sig=x&lsparams=x&lsig=x"
+   },
+   {
+    "itag": 140,
+    "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+    "contentLength": "3449447",
+    "approxDurationMs": "213089",
+    "initRange": {
+     "start": "0",
+     "end": "722"
+    },
+    "indexRange": {
+     "start": "723",
+     "end": "1018"
+    },
+    "bitrate": 130677,
+    "url": "https://rr1---sn-example.googlevideo.com/videoplayback?expire=x&ei=x&ip=0.0.0.0&id=x&itag=140&source=youtube&requiressl=yes&xpc=x&cps=1155&met=x&mh=x&mm=x&mn=x&ms=x&mv=x&mvi=1&pcm2cms=yes&pl=x&rms=x&initcwndbps=x&bui=x&spc=x&vprv=x&svpuc=x&mime=audio%2Fmp4&rqh=1&gir=yes&clen=3449447&dur=213.089&lmt=1766955925572207&mt=1793679670&fvip=5&epbp=1&keepalive=yes&fexp=51565115%2C52184236%2C52271469%2C52338435&c=ANDROID_VR&txp=5532534&sparams=x&sig=x&lsparams=x&lsig=x"
+   },
+   {
+    "itag": 249,
+    "mimeType": "audio/webm; codecs=\"opus\"",
+    "contentLength": "1231355",
+    "approxDurationMs": "213061",
+    "initRange": {
+     "start": "0",
+     "end": "258"
+    },
+    "indexRange": {
+     "start": "259",
+     "end": "628"
+    },
+    "bitrate": 49496,
+    "url": "https://rr1---sn-example.googlevideo.com/videoplayback?expire=x&ei=x&ip=0.0.0.0&id=x&itag=249&source=youtube&requiressl=yes&xpc=x&cps=1155&met=x&mh=x&mm=x&mn=x&ms=x&mv=x&mvi=1&pcm2cms=yes&pl=x&rms=x&initcwndbps=x&bui=x&spc=x&vprv=x&svpuc=x&mime=audio%2Fwebm&rqh=1&gir=yes&clen=1231355&dur=213.061&lmt=1766955883595299&mt=1793679670&fvip=5&epbp=1&keepalive=yes&fexp=51565115%2C52184236%2C52271469%2C52338435&c=ANDROID_VR&txp=5532534&sparams=x&sig=x&lsparams=x&lsig=x"
+   },
+   {
+    "itag": 251,
+    "mimeType": "audio/webm; codecs=\"opus\"",
+    "contentLength": "3433755",
+    "approxDurationMs": "213061",
+    "initRange": {
+     "start": "0",
+     "end": "258"
+    },
+    "indexRange": {
+     "start": "259",
+     "end": "629"
+    },
+    "bitrate": 136544,
+    "url": "https://rr1---sn-example.googlevideo.com/videoplayback?expire=x&ei=x&ip=0.0.0.0&id=x&itag=251&source=youtube&requiressl=yes&xpc=x&cps=1155&met=x&mh=x&mm=x&mn=x&ms=x&mv=x&mvi=1&pcm2cms=yes&pl=x&rms=x&initcwndbps=x&bui=x&spc=x&vprv=x&svpuc=x&mime=audio%2Fwebm&rqh=1&gir=yes&clen=3433755&dur=213.061&lmt=1766955883819090&mt=1793679670&fvip=5&epbp=1&keepalive=yes&fexp=51565115%2C52184236%2C52271469%2C52338435&c=ANDROID_VR&txp=5532534&sparams=x&sig=x&lsparams=x&lsig=x"
+   }
+  ],
+  "serverAbrStreamingUrl": "https://rr1---sn-example.googlevideo.com/videoplayback?sabr=1"
+ }
+}

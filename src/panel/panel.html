@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouTube Summary</title>
+  <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+  <header>
+    <div class="titlebar">
+      <div class="meta">
+        <h1 id="title">YouTube Summary</h1>
+        <div id="channel" class="sub"></div>
+      </div>
+      <div class="actions">
+        <button id="refresh" class="icon" title="Reload and summarize again" aria-label="Reload">⟳</button>
+        <button id="settings" class="icon" title="Settings" aria-label="Settings">⚙</button>
+      </div>
+    </div>
+    <div id="status" class="status" role="status" aria-live="polite"></div>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="summary" aria-selected="true">Summary</button>
+      <button role="tab" data-tab="chapters" aria-selected="false">Chapters <span id="chapterCount" class="count"></span></button>
+      <button role="tab" data-tab="transcript" aria-selected="false">Transcript <span id="segCount" class="count"></span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tab-summary" role="tabpanel">
+      <div id="summary" class="md"></div>
+      <div id="summaryActions" class="row hidden">
+        <button id="summarize" class="primary">Summarize</button>
+      </div>
+    </section>
+
+    <section id="tab-chapters" role="tabpanel" hidden>
+      <div id="chapterSource" class="sub"></div>
+      <div id="timeline" class="timeline" aria-hidden="true"></div>
+      <ol id="chapters" class="chapters"></ol>
+    </section>
+
+    <section id="tab-transcript" role="tabpanel" hidden>
+      <div class="toolbar">
+        <select id="track" aria-label="Caption track"></select>
+        <input id="filter" type="search" placeholder="Filter…" aria-label="Filter transcript">
+      </div>
+      <div class="toolbar">
+        <label class="check"><input id="follow" type="checkbox" checked> Follow video</label>
+        <span class="spacer"></span>
+        <button id="stt" title="Transcribe the audio with your STT model">Transcribe audio</button>
+        <button id="copy" title="Copy transcript">Copy</button>
+      </div>
+      <div id="transcriptSource" class="sub"></div>
+      <ol id="transcript" class="transcript"></ol>
+    </section>
+  </main>
+
+  <script type="module" src="panel.js"></script>
+</body>
+</html>

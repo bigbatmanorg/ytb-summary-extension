@@ -1,0 +1,2983 @@
+{
+ "playerOverlays": {
+  "playerOverlayRenderer": {
+   "decoratedPlayerBarRenderer": {
+    "decoratedPlayerBarRenderer": {
+     "playerBar": {
+      "multiMarkersPlayerBarRenderer": {
+       "visibleOnLoad": {
+        "key": "DESCRIPTION_CHAPTERS"
+       },
+       "markersMap": [
+        {
+         "key": "ANIMATION_ANNOTATION_MARKERS",
+         "value": {
+          "markers": [
+           {
+            "markerRenderer": {
+             "title": {},
+             "timeRangeStartMillis": 6505618
+            }
+           }
+          ],
+          "trackingParams": "CJ4BEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmA=="
+         }
+        },
+        {
+         "key": "DESCRIPTION_CHAPTERS",
+         "value": {
+          "chapters": [
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "Episode highlight"
+             },
+             "timeRangeStartMillis": 0,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 0
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_21833.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAFZiSZ5jX7mtaSkMqNugOPEYlxDg",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_21833.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAckgN3z3rUHj-KQf48gGUyaiBGmA",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           },
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "Introduction"
+             },
+             "timeRangeStartMillis": 77000,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 1
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_95066.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBieDbGCSXnAuoeuenFTFtX4deqLg",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_95066.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCMqZrt3n5aDfMe5YiEFDWYrzRueQ",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           },
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "The start of the Viking Age"
+             },
+             "timeRangeStartMillis": 157000,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 2
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_171800.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLABLeT_mjmjGdgOzCHHzvoWcG_YXQ",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_171800.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCAnvNvxPOGDU51upcPLWl3OEpmbA",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           },
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "Viking military strategy, tactics & technology"
+             },
+             "timeRangeStartMillis": 750000,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 3
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_775233.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCoCLN2cWXm8QJ6-avg6f0_p1G7ww",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_775233.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLArb_5X6OFTkhEo_TIt1v64Bv9lsw",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           },
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "Ragnar Lothbrok"
+             },
+             "timeRangeStartMillis": 1573000,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 4
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_1593866.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLD1Ofa5r0YpBKrS-WadxlLOwFdvUQ",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_1593866.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA5b4X-ydnynoPXHiebjPEcbe-3-Q",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           },
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "The Great Heathen Army"
+             },
+             "timeRangeStartMillis": 2140000,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 5
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_2140066.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLASwPyZBAOaLdnX6C8IlF7U6KJvYw",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_2140066.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAZefbHOXpA1lMUHSMFH7va8NeyXQ",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           },
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "Rollo and Normandy"
+             },
+             "timeRangeStartMillis": 2423000,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 6
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_2448800.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBVngGi44JBHPeYBfOgnrkJ8UrNnQ",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_2448800.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBvnOkcS_ZPskiptwLzM3MDgIQ08g",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           },
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "Viking religion and Valhalla"
+             },
+             "timeRangeStartMillis": 3034000,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 7
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_3063933.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDi91Ir3oPznwMwuxdsSNjnfpv2fA",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_3063933.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCrA6flvnwkhk0enlYLaU7w882f3w",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           },
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "Viking explorers"
+             },
+             "timeRangeStartMillis": 3666000,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 8
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_3668200.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBNCBsGURr5JOJIz4E5BjJ33ta3Tw",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_3668200.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCoSHMCTEn46kYdamy6Q29rquslUw",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           },
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "Vikings in North America"
+             },
+             "timeRangeStartMillis": 3973000,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 9
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_3996800.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLB4YglmOfF2pqdX9yOKOpmRlYuYZQ",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_3996800.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA-l7g_zLc9_wjOuzySbroHHQt06g",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           },
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "Vikings in the East"
+             },
+             "timeRangeStartMillis": 4775000,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 10
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_4786066.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCRNXieCuJKpKxD8WJmjS_39AYjSQ",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_4786066.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCCaAbqOaXrv0xl7W8X4iYEBB4qqA",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           },
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "Byzantine Empire"
+             },
+             "timeRangeStartMillis": 5954000,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 11
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_5954466.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCM3Iy57pp8ZV1Hy3-V0WaBQcqhnA",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_5954466.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCcQ8uC6gB1BdPlC0QGPK6Quo9w0A",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           },
+           {
+            "chapterRenderer": {
+             "title": {
+              "simpleText": "History and human nature"
+             },
+             "timeRangeStartMillis": 6477000,
+             "onActiveCommand": {
+              "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+              "setActivePanelItemAction": {
+               "panelTargetId": "engagement-panel-macro-markers-description-chapters",
+               "itemIndex": 12
+              }
+             },
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_6498000.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLA0tPWzF-Y6vGqljRwZb0WD66xhDw",
+                "width": 168,
+                "height": 94
+               },
+               {
+                "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_6498000.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLALNJAh5Alec9IydnBHAMtW333A5g",
+                "width": 336,
+                "height": 188
+               }
+              ]
+             }
+            }
+           }
+          ],
+          "trackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmA==",
+          "onChapterRepeat": {
+           "clickTrackingParams": "CJsBEMaHBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+           "openPopupAction": {
+            "popup": {
+             "notificationActionRenderer": {
+              "responseText": {
+               "runs": [
+                {
+                 "text": "Chapter repeat is on"
+                }
+               ]
+              },
+              "actionButton": {
+               "buttonRenderer": {
+                "style": "STYLE_BLUE_TEXT",
+                "text": {
+                 "runs": [
+                  {
+                   "text": "Turn off"
+                  }
+                 ]
+                },
+                "trackingParams": "CJ0BEPBbIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+                "command": {
+                 "clickTrackingParams": "CJ0BEPBbIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+                 "repeatChapterCommand": {
+                  "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+                 }
+                }
+               }
+              },
+              "trackingParams": "CJwBELlqIhMI3ur17_rqlwMVQu5JBx0LIRSY"
+             }
+            },
+            "popupType": "TOAST"
+           }
+          }
+         }
+        }
+       ],
+       "trackingParams": "CJoBEKHACyITCN7q9e_66pcDFULuSQcdCyEUmA=="
+      }
+     },
+     "playerBarActionButton": {
+      "buttonRenderer": {
+       "text": {
+        "runs": [
+         {
+          "text": "View Chapters"
+         }
+        ]
+       },
+       "trackingParams": "CJkBEJDQBiITCN7q9e_66pcDFULuSQcdCyEUmA==",
+       "command": {
+        "clickTrackingParams": "CJkBEJDQBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+        "commandExecutorCommand": {
+         "commands": [
+          {
+           "clickTrackingParams": "CJkBEJDQBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+           "updateEngagementPanelContentCommand": {
+            "targetPanelIdentifier": {
+             "surface": "ENGAGEMENT_PANEL_SURFACE_WATCH",
+             "tag": "engagement-panel-timeline-view-consolidated"
+            },
+            "contentSourcePanelIdentifier": {
+             "surface": "ENGAGEMENT_PANEL_SURFACE_WATCH",
+             "tag": "engagement-panel-macro-markers-description-chapters"
+            }
+           }
+          },
+          {
+           "clickTrackingParams": "CJkBEJDQBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+           "updateTimedMarkersSyncObserverCommand": {
+            "isEnabled": false,
+            "timedSyncEntityKey": "Eh10aW1lbGluZV92aWV3X3N5bmNfZW50aXR5X2tleSD-ASgB",
+            "panelSyncEntityKey": "Eh10aW1lbGluZV92aWV3X3N5bmNfZW50aXR5X2tleSDEASgB"
+           }
+          },
+          {
+           "clickTrackingParams": "CJkBEJDQBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+           "entityUpdateCommand": {
+            "entityBatchUpdate": {
+             "mutations": [
+              {
+               "entityKey": "EiRlbmdhZ2VtZW50X3BhbmVsX2NoaXBzX2Jhcl9lbnRpdHlfaWQggwQoAQ%3D%3D",
+               "type": "ENTITY_MUTATION_TYPE_REPLACE",
+               "payload": {
+                "chipBarStateEntity": {
+                 "key": "EiRlbmdhZ2VtZW50X3BhbmVsX2NoaXBzX2Jhcl9lbnRpdHlfaWQggwQoAQ%3D%3D",
+                 "selectedIndex": 1
+                }
+               }
+              }
+             ]
+            }
+           }
+          },
+          {
+           "clickTrackingParams": "CJkBEJDQBiITCN7q9e_66pcDFULuSQcdCyEUmMoBBCNgfAE=",
+           "scrollToEngagementPanelCommand": {
+            "panelIdentifier": {
+             "tag": "engagement-panel-timeline-view-consolidated"
+            }
+           }
+          }
+         ]
+        }
+       }
+      }
+     },
+     "buttonType": "DECORATED_PLAYER_BAR_BUTTON_TYPE_CHAPTERS"
+    }
+   }
+  }
+ },
+ "engagementPanels": [
+  {
+   "engagementPanelSectionListRenderer": {
+    "panelIdentifier": "engagement-panel-macro-markers-description-chapters",
+    "header": {
+     "engagementPanelTitleHeaderRenderer": {
+      "title": {
+       "runs": [
+        {
+         "text": "Chapters"
+        }
+       ]
+      },
+      "subtitle": {},
+      "visibilityButton": {
+       "buttonRenderer": {
+        "icon": {
+         "iconType": "CLOSE"
+        },
+        "accessibility": {
+         "label": "Close"
+        },
+        "trackingParams": "CHsQ8FsiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+        "accessibilityData": {
+         "accessibilityData": {
+          "label": "Close"
+         }
+        },
+        "command": {
+         "clickTrackingParams": "CHsQ8FsiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+         "changeEngagementPanelVisibilityAction": {
+          "targetId": "engagement-panel-macro-markers-description-chapters",
+          "visibility": "ENGAGEMENT_PANEL_VISIBILITY_HIDDEN"
+         }
+        }
+       }
+      },
+      "trackingParams": "CEUQ040EGAUiEwje6vXv-uqXAxVC7kkHHQshFJg="
+     }
+    },
+    "content": {
+     "macroMarkersListRenderer": {
+      "contents": [
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "Episode highlight"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "0 seconds"
+           }
+          },
+          "simpleText": "0:00"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_21833.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAFZiSZ5jX7mtaSkMqNugOPEYlxDg",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_21833.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAckgN3z3rUHj-KQf48gGUyaiBGmA",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CHcQ0NAGGAAiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 0,
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CHcQ0NAGGAAiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CHkQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CHkQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIVCAASEUVwaXNvZGUgaGlnaGxpZ2h0",
+             "commands": [
+              {
+               "clickTrackingParams": "CHkQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CHoQjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CHgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "0",
+             "endTimeMs": "77000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CHgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CHgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CHgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CHgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CHcQ0NAGGAAiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CHcQ0NAGGAAiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CHcQ0NAGGAAiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "0 seconds"
+        }
+       },
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "Introduction"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "1 minute, 17 seconds"
+           }
+          },
+          "simpleText": "1:17"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_95066.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBieDbGCSXnAuoeuenFTFtX4deqLg",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_95066.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCMqZrt3n5aDfMe5YiEFDWYrzRueQ",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CHMQ0NAGGAEiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU&t=77s",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 77,
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&osts=77&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CHMQ0NAGGAEiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CHUQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CHUQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIQCE0SDEludHJvZHVjdGlvbg%3D%3D",
+             "commands": [
+              {
+               "clickTrackingParams": "CHUQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CHYQjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CHQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "77000",
+             "endTimeMs": "157000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CHQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CHQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CHQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CHQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CHMQ0NAGGAEiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CHMQ0NAGGAEiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CHMQ0NAGGAEiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "1 minute, 17 seconds"
+        }
+       },
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "The start of the Viking Age"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "2 minutes, 37 seconds"
+           }
+          },
+          "simpleText": "2:37"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_171800.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLABLeT_mjmjGdgOzCHHzvoWcG_YXQ",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_171800.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCAnvNvxPOGDU51upcPLWl3OEpmbA",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CG8Q0NAGGAIiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU&t=157s&pp=0gcJCTUDDuyUWbzu",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 157,
+           "playerParams": "0gcJCTUDDuyUWbzu",
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&osts=157&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CG8Q0NAGGAIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CHEQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CHEQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIgCJ0BEhtUaGUgc3RhcnQgb2YgdGhlIFZpa2luZyBBZ2U%3D",
+             "commands": [
+              {
+               "clickTrackingParams": "CHEQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CHIQjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CHAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "157000",
+             "endTimeMs": "750000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CHAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CHAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CHAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CHAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CG8Q0NAGGAIiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CG8Q0NAGGAIiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CG8Q0NAGGAIiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "2 minutes, 37 seconds"
+        }
+       },
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "Viking military strategy, tactics & technology"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "12 minutes, 30 seconds"
+           }
+          },
+          "simpleText": "12:30"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_775233.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCoCLN2cWXm8QJ6-avg6f0_p1G7ww",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_775233.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLArb_5X6OFTkhEo_TIt1v64Bv9lsw",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CGsQ0NAGGAMiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU&t=750s",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 750,
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&osts=750&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CGsQ0NAGGAMiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CG0QjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CG0QjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIzCO4FEi5WaWtpbmcgbWlsaXRhcnkgc3RyYXRlZ3ksIHRhY3RpY3MgJiB0ZWNobm9sb2d5",
+             "commands": [
+              {
+               "clickTrackingParams": "CG0QjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CG4QjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CGwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "750000",
+             "endTimeMs": "1573000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CGwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CGwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CGwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CGwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CGsQ0NAGGAMiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CGsQ0NAGGAMiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CGsQ0NAGGAMiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "12 minutes, 30 seconds"
+        }
+       },
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "Ragnar Lothbrok"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "26 minutes, 13 seconds"
+           }
+          },
+          "simpleText": "26:13"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_1593866.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLD1Ofa5r0YpBKrS-WadxlLOwFdvUQ",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_1593866.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA5b4X-ydnynoPXHiebjPEcbe-3-Q",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CGcQ0NAGGAQiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU&t=1573s",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 1573,
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&osts=1573&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CGcQ0NAGGAQiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CGkQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CGkQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIUCKUMEg9SYWduYXIgTG90aGJyb2s%3D",
+             "commands": [
+              {
+               "clickTrackingParams": "CGkQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CGoQjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CGgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "1573000",
+             "endTimeMs": "2140000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CGgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CGgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CGgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CGgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CGcQ0NAGGAQiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CGcQ0NAGGAQiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CGcQ0NAGGAQiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "26 minutes, 13 seconds"
+        }
+       },
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "The Great Heathen Army"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "35 minutes, 40 seconds"
+           }
+          },
+          "simpleText": "35:40"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_2140066.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLASwPyZBAOaLdnX6C8IlF7U6KJvYw",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_2140066.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLAZefbHOXpA1lMUHSMFH7va8NeyXQ",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CGMQ0NAGGAUiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU&t=2140s",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 2140,
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&osts=2140&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CGMQ0NAGGAUiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CGUQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CGUQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIbCNwQEhZUaGUgR3JlYXQgSGVhdGhlbiBBcm15",
+             "commands": [
+              {
+               "clickTrackingParams": "CGUQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CGYQjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CGQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "2140000",
+             "endTimeMs": "2423000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CGQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CGQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CGQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CGQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CGMQ0NAGGAUiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CGMQ0NAGGAUiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CGMQ0NAGGAUiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "35 minutes, 40 seconds"
+        }
+       },
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "Rollo and Normandy"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "40 minutes, 23 seconds"
+           }
+          },
+          "simpleText": "40:23"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_2448800.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBVngGi44JBHPeYBfOgnrkJ8UrNnQ",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_2448800.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLBvnOkcS_ZPskiptwLzM3MDgIQ08g",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CF8Q0NAGGAYiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU&t=2423s",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 2423,
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&osts=2423&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CF8Q0NAGGAYiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CGEQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CGEQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIXCPcSEhJSb2xsbyBhbmQgTm9ybWFuZHk%3D",
+             "commands": [
+              {
+               "clickTrackingParams": "CGEQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CGIQjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CGAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "2423000",
+             "endTimeMs": "3034000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CGAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CGAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CGAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CGAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CF8Q0NAGGAYiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CF8Q0NAGGAYiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CF8Q0NAGGAYiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "40 minutes, 23 seconds"
+        }
+       },
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "Viking religion and Valhalla"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "50 minutes, 34 seconds"
+           }
+          },
+          "simpleText": "50:34"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_3063933.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDi91Ir3oPznwMwuxdsSNjnfpv2fA",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_3063933.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCrA6flvnwkhk0enlYLaU7w882f3w",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CFsQ0NAGGAciEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU&t=3034s",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 3034,
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&osts=3034&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CFsQ0NAGGAciEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CF0QjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CF0QjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIhCNoXEhxWaWtpbmcgcmVsaWdpb24gYW5kIFZhbGhhbGxh",
+             "commands": [
+              {
+               "clickTrackingParams": "CF0QjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CF4QjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CFwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "3034000",
+             "endTimeMs": "3666000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CFwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CFwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CFwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CFwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CFsQ0NAGGAciEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CFsQ0NAGGAciEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CFsQ0NAGGAciEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "50 minutes, 34 seconds"
+        }
+       },
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "Viking explorers"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "1 hour, 1 minute, 6 seconds"
+           }
+          },
+          "simpleText": "1:01:06"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_3668200.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBNCBsGURr5JOJIz4E5BjJ33ta3Tw",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_3668200.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCoSHMCTEn46kYdamy6Q29rquslUw",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CFcQ0NAGGAgiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU&t=3666s",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 3666,
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&osts=3666&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CFcQ0NAGGAgiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CFkQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CFkQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIVCNIcEhBWaWtpbmcgZXhwbG9yZXJz",
+             "commands": [
+              {
+               "clickTrackingParams": "CFkQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CFoQjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CFgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "3666000",
+             "endTimeMs": "3973000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CFgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CFgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CFgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CFgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CFcQ0NAGGAgiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CFcQ0NAGGAgiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CFcQ0NAGGAgiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "1 hour, 1 minute, 6 seconds"
+        }
+       },
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "Vikings in North America"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "1 hour, 6 minutes, 13 seconds"
+           }
+          },
+          "simpleText": "1:06:13"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_3996800.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLB4YglmOfF2pqdX9yOKOpmRlYuYZQ",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_3996800.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA-l7g_zLc9_wjOuzySbroHHQt06g",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CFMQ0NAGGAkiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU&t=3973s",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 3973,
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&osts=3973&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CFMQ0NAGGAkiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CFUQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CFUQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIdCIUfEhhWaWtpbmdzIGluIE5vcnRoIEFtZXJpY2E%3D",
+             "commands": [
+              {
+               "clickTrackingParams": "CFUQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CFYQjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CFQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "3973000",
+             "endTimeMs": "4775000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CFQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CFQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CFQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CFQQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CFMQ0NAGGAkiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CFMQ0NAGGAkiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CFMQ0NAGGAkiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "1 hour, 6 minutes, 13 seconds"
+        }
+       },
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "Vikings in the East"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "1 hour, 19 minutes, 35 seconds"
+           }
+          },
+          "simpleText": "1:19:35"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_4786066.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCRNXieCuJKpKxD8WJmjS_39AYjSQ",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_4786066.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCCaAbqOaXrv0xl7W8X4iYEBB4qqA",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CE8Q0NAGGAoiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU&t=4775s",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 4775,
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&osts=4775&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CE8Q0NAGGAoiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CFEQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CFEQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIYCKclEhNWaWtpbmdzIGluIHRoZSBFYXN0",
+             "commands": [
+              {
+               "clickTrackingParams": "CFEQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CFIQjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CFAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "4775000",
+             "endTimeMs": "5954000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CFAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CFAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CFAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CFAQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CE8Q0NAGGAoiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CE8Q0NAGGAoiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CE8Q0NAGGAoiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "1 hour, 19 minutes, 35 seconds"
+        }
+       },
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "Byzantine Empire"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "1 hour, 39 minutes, 14 seconds"
+           }
+          },
+          "simpleText": "1:39:14"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_5954466.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCM3Iy57pp8ZV1Hy3-V0WaBQcqhnA",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_5954466.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCcQ8uC6gB1BdPlC0QGPK6Quo9w0A",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CEsQ0NAGGAsiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU&t=5954s",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 5954,
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&osts=5954&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CEsQ0NAGGAsiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CE0QjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CE0QjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIVCMIuEhBCeXphbnRpbmUgRW1waXJl",
+             "commands": [
+              {
+               "clickTrackingParams": "CE0QjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CE4QjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CEwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "5954000",
+             "endTimeMs": "6477000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CEwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CEwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CEwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CEwQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CEsQ0NAGGAsiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CEsQ0NAGGAsiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CEsQ0NAGGAsiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "1 hour, 39 minutes, 14 seconds"
+        }
+       },
+       {
+        "macroMarkersListItemRenderer": {
+         "title": {
+          "simpleText": "History and human nature"
+         },
+         "timeDescription": {
+          "accessibility": {
+           "accessibilityData": {
+            "label": "1 hour, 47 minutes, 57 seconds"
+           }
+          },
+          "simpleText": "1:47:57"
+         },
+         "thumbnail": {
+          "thumbnails": [
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_6498000.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLA0tPWzF-Y6vGqljRwZb0WD66xhDw",
+            "width": 168,
+            "height": 94
+           },
+           {
+            "url": "https://i.ytimg.com/vi/iKx3gAODybU/hqdefault_6498000.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLALNJAh5Alec9IydnBHAMtW333A5g",
+            "width": 336,
+            "height": 188
+           }
+          ]
+         },
+         "onTap": {
+          "clickTrackingParams": "CEcQ0NAGGAwiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandMetadata": {
+           "webCommandMetadata": {
+            "url": "/watch?v=iKx3gAODybU&t=6477s",
+            "webPageType": "WEB_PAGE_TYPE_WATCH",
+            "rootVe": 3832
+           }
+          },
+          "watchEndpoint": {
+           "videoId": "iKx3gAODybU",
+           "continuePlayback": true,
+           "startTimeSeconds": 6477,
+           "watchEndpointSupportedOnesieConfig": {
+            "html5PlaybackOnesieConfig": {
+             "commonConfig": {
+              "url": "https://rr5---sn-bg52x-2gbl.googlevideo.com/initplayback?source=youtube&oeis=1&c=WEB&oad=3200&ovd=3200&oaad=11000&oavd=11000&ocs=700&oewis=1&oputc=1&epbp=1&msp=1&odepv=1&id=88ac77800383c9b5&ip=0.0.0.0&osts=6477&initcwndbps=2270875&mt=1793679670&oweuc="
+             }
+            }
+           }
+          }
+         },
+         "trackingParams": "CEcQ0NAGGAwiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+         "shareButton": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "icon": {
+            "iconType": "SHARE"
+           },
+           "trackingParams": "CEkQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Share"
+            }
+           },
+           "command": {
+            "clickTrackingParams": "CEkQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandMetadata": {
+             "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_share_panel"
+             }
+            },
+            "shareEntityServiceEndpoint": {
+             "serializedShareEntity": "CgtpS3gzZ0FPRHliVWIdCM0yEhhIaXN0b3J5IGFuZCBodW1hbiBuYXR1cmU%3D",
+             "commands": [
+              {
+               "clickTrackingParams": "CEkQjdAHIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "openPopupAction": {
+                "popup": {
+                 "unifiedSharePanelRenderer": {
+                  "trackingParams": "CEoQjmIiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+                  "showLoadingSpinner": true
+                 }
+                },
+                "popupType": "DIALOG",
+                "beReused": true
+               }
+              }
+             ]
+            }
+           }
+          }
+         },
+         "repeatButton": {
+          "toggleButtonRenderer": {
+           "style": {
+            "styleType": "STYLE_DEFAULT_ACTIVE"
+           },
+           "isToggled": false,
+           "isDisabled": false,
+           "defaultIcon": {
+            "iconType": "LOOP"
+           },
+           "defaultServiceEndpoint": {
+            "clickTrackingParams": "CEgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "repeatChapterCommand": {
+             "repeat": "REPEAT_CHAPTER_TYPE_ENABLE_REPEAT",
+             "startTimeMs": "6477000",
+             "endTimeMs": "7404000",
+             "repeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D"
+            }
+           },
+           "toggledServiceEndpoint": {
+            "clickTrackingParams": "CEgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+            "commandExecutorCommand": {
+             "commands": [
+              {
+               "clickTrackingParams": "CEgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "entityUpdateCommand": {
+                "entityBatchUpdate": {
+                 "mutations": [
+                  {
+                   "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                   "type": "ENTITY_MUTATION_TYPE_DELETE"
+                  }
+                 ]
+                }
+               }
+              },
+              {
+               "clickTrackingParams": "CEgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSYygEEI2B8AQ==",
+               "repeatChapterCommand": {
+                "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+               }
+              }
+             ]
+            }
+           },
+           "trackingParams": "CEgQ85EJIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+           "toggledStyle": {
+            "styleType": "STYLE_BLUE_TEXT"
+           },
+           "accessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is off"
+            }
+           },
+           "toggledAccessibilityData": {
+            "accessibilityData": {
+             "label": "Repeat chapter is on"
+            }
+           }
+          }
+         },
+         "macroMarkerRepeatStateEntityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+         "endRepeatCommand": {
+          "clickTrackingParams": "CEcQ0NAGGAwiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+          "commandExecutorCommand": {
+           "commands": [
+            {
+             "clickTrackingParams": "CEcQ0NAGGAwiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "entityUpdateCommand": {
+              "entityBatchUpdate": {
+               "mutations": [
+                {
+                 "entityKey": "EgxyZXBlYXRfc3RhdGUgyQIoAQ%3D%3D",
+                 "type": "ENTITY_MUTATION_TYPE_DELETE"
+                }
+               ]
+              }
+             }
+            },
+            {
+             "clickTrackingParams": "CEcQ0NAGGAwiEwje6vXv-uqXAxVC7kkHHQshFJjKAQQjYHwB",
+             "repeatChapterCommand": {
+              "repeat": "REPEAT_CHAPTER_TYPE_DISABLE_REPEAT"
+             }
+            }
+           ]
+          }
+         },
+         "playerStateEntityKey": "Eh8veW91dHViZS9hcHAvd2F0Y2gvcGxheWVyX3N0YXRlIMMCKAE%3D",
+         "carouselType": "MACRO_MARKERS_LIST_ITEM_RENDERER_CAROUSEL_TYPE_DEFAULT",
+         "timeDescriptionA11yLabel": "1 hour, 47 minutes, 57 seconds"
+        }
+       }
+      ],
+      "syncButtonLabel": {
+       "runs": [
+        {
+         "text": "Sync to video time"
+        }
+       ]
+      },
+      "trackingParams": "CEYQ6NMGIhMI3ur17_rqlwMVQu5JBx0LIRSY",
+      "syncModelEntityKey": "EgpzeW5jX21vZGVsIMQBKAE%3D"
+     }
+    },
+    "targetId": "engagement-panel-macro-markers-description-chapters",
+    "visibility": "ENGAGEMENT_PANEL_VISIBILITY_HIDDEN",
+    "loggingDirectives": {
+     "trackingParams": "CEUQ040EGAUiEwje6vXv-uqXAxVC7kkHHQshFJg=",
+     "visibility": {
+      "types": "12"
+     }
+    }
+   }
+  }
+ ]
+}

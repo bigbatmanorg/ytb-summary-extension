@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YouTube Summary settings</title>
+  <link rel="stylesheet" href="../panel/panel.css">
+  <style>
+    body { max-width: 560px; margin: 0 auto; padding: 24px 16px 48px; }
+    h1 { font-size: 20px; margin: 0 0 4px; -webkit-line-clamp: unset; display: block; }
+    form { display: grid; gap: 14px; margin-top: 20px; }
+    label { display: grid; gap: 4px; font-weight: 500; }
+    label .sub { font-weight: 400; }
+    input[type="text"], input[type="url"], input[type="password"], select {
+      background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 6px 8px; width: 100%;
+    }
+    .check { font-size: 14px; color: var(--fg); font-weight: 400; display: flex; }
+    .buttons { display: flex; gap: 8px; align-items: center; }
+    #msg { font-size: 13px; color: var(--muted); }
+    #msg.error { color: var(--accent); }
+    .note { margin-top: 28px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; }
+  </style>
+</head>
+<body>
+  <h1>YouTube Summary</h1>
+  <div class="sub">Bring your own OpenAI-compatible endpoint: OpenAI, LiteLLM, vLLM, Ollama, LM Studio…</div>
+
+  <form id="form">
+    <label>Base URL
+      <input id="baseUrl" type="url" placeholder="https://api.openai.com/v1" required>
+      <span class="sub">Everything up to and including <code>/v1</code>.</span>
+    </label>
+    <label>API key
+      <input id="apiKey" type="password" autocomplete="off" placeholder="sk-… (leave empty if your endpoint needs none)">
+    </label>
+    <div class="buttons">
+      <button type="button" id="test">Test connection and load models</button>
+    </div>
+    <label>Chat model
+      <input id="chatModel" type="text" list="models" placeholder="gpt-4o-mini" required>
+    </label>
+    <label>Speech-to-text model <span class="sub">(optional, for videos without captions)</span>
+      <input id="sttModel" type="text" list="models" placeholder="whisper-1">
+    </label>
+    <label>Output language
+      <input id="language" type="text" list="languages" placeholder="auto">
+      <span class="sub"><code>auto</code> = same language as the video. Or e.g. English, Deutsch, Čeština.</span>
+    </label>
+    <label class="check"><input id="autoSummarize" type="checkbox"> Summarize automatically when the panel opens</label>
+    <div class="buttons">
+      <button type="submit" class="primary">Save</button>
+      <span id="msg" role="status" aria-live="polite"></span>
+    </div>
+  </form>
+  <datalist id="models"></datalist>
+  <datalist id="languages">
+    <option value="auto"></option><option value="English"></option><option value="Deutsch"></option>
+    <option value="Español"></option><option value="Français"></option><option value="Čeština"></option>
+    <option value="Slovenčina"></option><option value="Polski"></option><option value="日本語"></option>
+  </datalist>
+
+  <p class="note">Settings stay in this browser (<code>chrome.storage.local</code>). Transcripts and audio are sent only to the endpoint above; nothing goes to any server run by this extension's authors.</p>
+
+  <script type="module" src="options.js"></script>
+</body>
+</html>
