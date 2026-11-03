@@ -27,9 +27,11 @@ const settings = {
   baseUrl: env.YTSUM_BASE_URL || '',
   apiKey: env.YTSUM_API_KEY || '',
   chatModel: env.YTSUM_CHAT_MODEL || '',
+  fastModel: env.YTSUM_FAST_MODEL || '',
   sttModel: env.YTSUM_STT_MODEL || 'whisper-1',
   language: env.YTSUM_LANGUAGE || 'auto',
   autoSummarize: true,
+  autoShort: true,
 };
 
 const extDir = mkdtempSync(join(tmpdir(), 'ytsum-ext-'));
@@ -84,31 +86,57 @@ for (const id of ids) {
   await panel.waitForFunction(() => document.querySelector('#title').textContent !== 'YouTube Summary'
     || document.querySelector('#status').classList.contains('error'), null, { timeout: 120000 }).catch(() => {});
 
+  // A tier is finished when its Copy button shows (done) or it shows an error.
+  const tiersSettled = (ids) => panel.waitForFunction((list) => list.every((id) => {
+    const card = document.querySelector(`.tier[data-tier="${id}"]`);
+    return !card.querySelector('.copy').hidden || card.querySelector('.error');
+  }) || document.querySelector('#status').classList.contains('error'), ids, { timeout: 15 * 60000, polling: 1000 }).catch(() => {});
+
+  await tiersSettled(['quick', 'short']);
   if (forceStt) {
-    await panel.evaluate(() => { document.querySelector('[data-tab=transcript]').click(); });
-    await panel.waitForFunction(() => !document.querySelector('#summary .empty')?.textContent?.startsWith('Summarizing') , null, { timeout: 300000 }).catch(() => {});
+    await panel.click('[data-tab=transcript]');
     await panel.click('#stt');
     await panel.waitForTimeout(1000);
+    // Speech-to-text replaces the transcript and re-runs the automatic tiers.
+    await panel.waitForFunction(() => document.querySelector('#transcriptSource').textContent.startsWith('Speech-to-text (')
+      && !document.querySelector('#transcriptSource').textContent.includes('so far')
+      || document.querySelector('#status').classList.contains('error'), null, { timeout: 15 * 60000, polling: 1000 }).catch(() => {});
+    await panel.waitForTimeout(500);
+    await tiersSettled(['quick', 'short']);
   }
+  // The detailed tier waits for a click.
+  const longIdle = await panel.evaluate(() => {
+    const card = document.querySelector('.tier[data-tier="long"]');
+    return card.querySelector('.copy').hidden && !card.querySelector('.generate').hidden;
+  });
+  await panel.click('[data-tab=summary]');
+  await panel.click('.tier[data-tier="long"] .generate').catch(() => {});
+  await tiersSettled(['long']);
 
-  // Done when a summary is rendered or an error is shown.
-  await panel.waitForFunction(() => {
-    const s = document.querySelector('#summary');
-    const st = document.querySelector('#status');
-    return (s.querySelector('p:not(.empty), li') && !st.textContent) || st.classList.contains('error');
-  }, null, { timeout: 15 * 60000, polling: 1000 }).catch(() => {});
-
-  const r = await panel.evaluate(() => ({
-    title: document.querySelector('#title').textContent,
-    status: document.querySelector('#status').textContent,
-    error: document.querySelector('#status').classList.contains('error'),
-    segments: document.querySelectorAll('#transcript li[data-i]').length,
-    transcriptSource: document.querySelector('#transcriptSource').textContent,
-    chapters: document.querySelectorAll('#chapters li').length,
-    chapterSource: document.querySelector('#chapterSource').textContent,
-    summaryChars: document.querySelector('#summary').textContent.length,
-    summaryHead: document.querySelector('#summary').textContent.slice(0, 160),
-  }));
+  const r = await panel.evaluate(() => {
+    const tier = (id) => {
+      const card = document.querySelector(`.tier[data-tier="${id}"]`);
+      return {
+        done: !card.querySelector('.copy').hidden,
+        error: card.querySelector('.error')?.textContent || null,
+        verdict: card.querySelector('.verdict')?.textContent || null,
+        chars: card.querySelector('.body').textContent.length,
+        time: card.querySelector('.time').textContent,
+        head: card.querySelector('.body').textContent.slice(0, 100),
+      };
+    };
+    return {
+      title: document.querySelector('#title').textContent,
+      status: document.querySelector('#status').textContent,
+      error: document.querySelector('#status').classList.contains('error'),
+      segments: document.querySelectorAll('#transcript li[data-i]').length,
+      transcriptSource: document.querySelector('#transcriptSource').textContent,
+      chapters: document.querySelectorAll('#chapters li').length,
+      chapterSource: document.querySelector('#chapterSource').textContent,
+      tiers: { quick: tier('quick'), short: tier('short'), long: tier('long') },
+    };
+  });
+  r.longWaitedForClick = longIdle;
 
   // Seek check: click the 2nd chapter (or a transcript line) and read the video time.
   let seek = null;
@@ -134,7 +162,8 @@ for (const id of ids) {
   }
   const res = { id, seconds: Math.round((Date.now() - t0) / 1000), ...r, seek, log: logs.filter((l) => l.includes('[ytsum]') || l.startsWith('error')) };
   results.push(res);
-  const ok = !r.error && r.segments > 0 && r.summaryChars > 50 && (!seek || Math.abs(seek.videoTime - seek.target) <= 3);
+  const tiersOk = Object.values(r.tiers).every((t) => t.done && !t.error && t.chars > 30) && /^(WATCH|SKIM|SKIP)$/.test(r.tiers.quick.verdict || '');
+  const ok = !r.error && r.segments > 0 && tiersOk && r.longWaitedForClick && (!seek || Math.abs(seek.videoTime - seek.target) <= 3);
   failed ||= !ok;
   console.log(JSON.stringify({ ok, ...res }, null, 2));
   await panel.close();

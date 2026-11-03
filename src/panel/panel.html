@@ -28,9 +28,23 @@
 
   <main>
     <section id="tab-summary" role="tabpanel">
-      <div id="summary" class="md"></div>
-      <div id="summaryActions" class="row hidden">
-        <button id="summarize" class="primary">Summarize</button>
+      <p id="summaryNote" class="empty"></p>
+      <div id="tiers" hidden>
+        <article class="tier" data-tier="quick">
+          <header><h2>Worth watching?</h2><span class="verdict" hidden></span><span class="time"></span></header>
+          <div class="body md"></div>
+          <footer><button class="generate">Get the verdict</button><button class="copy" hidden>Copy</button></footer>
+        </article>
+        <article class="tier" data-tier="short">
+          <header><h2>Short summary</h2><span class="time"></span></header>
+          <div class="body md"></div>
+          <footer><button class="generate">Generate short summary</button><button class="copy" hidden>Copy</button></footer>
+        </article>
+        <article class="tier" data-tier="long">
+          <header><h2>Detailed summary</h2><span class="time"></span></header>
+          <div class="body md"></div>
+          <footer><button class="generate">Generate detailed summary</button><button class="copy" hidden>Copy</button></footer>
+        </article>
       </div>
     </section>
 

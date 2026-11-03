@@ -37,7 +37,7 @@ button.primary { background: var(--accent); color: var(--accent-fg); border-colo
 button.icon { width: 30px; height: 30px; padding: 0; font-size: 16px; line-height: 1; }
 .hidden { display: none !important; }
 
-header { position: sticky; top: 0; background: var(--bg); z-index: 2; border-bottom: 1px solid var(--line); }
+body > header { position: sticky; top: 0; background: var(--bg); z-index: 2; border-bottom: 1px solid var(--line); }
 .titlebar { display: flex; gap: 8px; align-items: flex-start; padding: 12px 12px 4px; }
 .meta { flex: 1; min-width: 0; }
 h1 { font-size: 15px; margin: 0; line-height: 1.35; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
@@ -89,3 +89,18 @@ button.ts:hover { text-decoration: underline; }
 .transcript li.now { background: var(--now); }
 .transcript .ts { min-width: 52px; text-align: left; flex: none; }
 .transcript mark { background: var(--now); color: inherit; }
+
+.tier { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin-bottom: 12px; }
+.tier header { position: static; display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; }
+.tier h2 { font-size: 13px; margin: 0; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.tier .time { margin-left: auto; font-size: 12px; color: var(--muted); }
+.tier .body:empty { display: none; }
+.tier footer { display: flex; gap: 8px; margin-top: 6px; }
+.tier footer:not(:has(button:not([hidden]))) { display: none; }
+.tier .working { color: var(--muted); font-size: 13px; }
+.tier .error { color: var(--accent); font-size: 13px; }
+.tier .error small { display: block; color: var(--muted); }
+.verdict { font-weight: 700; font-size: 12px; padding: 1px 8px; border-radius: 999px; letter-spacing: .04em; }
+.verdict.WATCH { background: #1e8e3e; color: #fff; }
+.verdict.SKIM { background: #f9ab00; color: #202124; }
+.verdict.SKIP { background: #9aa0a6; color: #202124; }

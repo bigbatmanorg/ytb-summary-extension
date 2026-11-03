@@ -38,6 +38,11 @@
     </div>
     <label>Chat model
       <input id="chatModel" type="text" list="models" placeholder="gpt-4o-mini" required>
+      <span class="sub">Used for the short and detailed summaries.</span>
+    </label>
+    <label>Fast model <span class="sub">(optional)</span>
+      <input id="fastModel" type="text" list="models" placeholder="same as the chat model">
+      <span class="sub">A small, quick model for the "Worth watching?" verdict and for condensing long transcripts.</span>
     </label>
     <label>Speech-to-text model <span class="sub">(optional, for videos without captions)</span>
       <input id="sttModel" type="text" list="models" placeholder="whisper-1">
@@ -46,7 +51,8 @@
       <input id="language" type="text" list="languages" placeholder="auto">
       <span class="sub"><code>auto</code> = same language as the video. Or e.g. English, Deutsch, Čeština.</span>
     </label>
-    <label class="check"><input id="autoSummarize" type="checkbox"> Summarize automatically when the panel opens</label>
+    <label class="check"><input id="autoSummarize" type="checkbox"> Run the "Worth watching?" verdict automatically when the panel opens</label>
+    <label class="check"><input id="autoShort" type="checkbox"> Also generate the short summary right away (the detailed one always waits for a click)</label>
     <div class="buttons">
       <button type="submit" class="primary">Save</button>
       <span id="msg" role="status" aria-live="polite"></span>

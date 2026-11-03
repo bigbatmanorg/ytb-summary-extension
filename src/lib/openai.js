@@ -40,6 +40,86 @@ export async function chat(messages, { baseUrl, apiKey, model, fetch = globalThi
 }
 
 /**
+ * Streaming chat completion (SSE). Yields {type: 'content' | 'reasoning' | 'truncated', text}.
+ * Reasoning models stream their thinking in `reasoning_content` / `reasoning`, or
+ * inside <think>…</think> in the content; both are reported as 'reasoning'.
+ * Servers that ignore `stream: true` and answer with plain JSON work too.
+ */
+export async function* streamChat(messages, { baseUrl, apiKey, model, fetch = globalThis.fetch, signal, temperature = 0.2 }) {
+  const res = await fetch(`${normalizeBaseUrl(baseUrl)}/chat/completions`, {
+    method: 'POST',
+    headers: headers(apiKey, { 'content-type': 'application/json' }),
+    body: JSON.stringify({ model, messages, temperature, stream: true }),
+    signal,
+  });
+  if (!res.ok) throw new Error(`chat/completions: HTTP ${res.status} ${await errorText(res)}`);
+  const think = thinkSplitter();
+  if (!(res.headers.get('content-type') || '').includes('text/event-stream')) {
+    const msg = (await res.json()).choices?.[0]?.message || {};
+    const r = msg.reasoning_content ?? msg.reasoning;
+    if (r) yield { type: 'reasoning', text: r };
+    yield* think(msg.content || '');
+    return;
+  }
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+  let buf = '';
+  let finish = null;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    buf += decoder.decode(value, { stream: true });
+    let nl;
+    while ((nl = buf.indexOf('\n')) >= 0) {
+      const line = buf.slice(0, nl).trim();
+      buf = buf.slice(nl + 1);
+      if (!line.startsWith('data:')) continue;
+      const data = line.slice(5).trim();
+      if (data === '[DONE]') {
+        if (finish === 'length') yield { type: 'truncated', text: '' };
+        return;
+      }
+      let j;
+      try { j = JSON.parse(data); } catch { continue; }
+      if (j.error) throw new Error(`chat/completions: ${j.error.message || JSON.stringify(j.error)}`);
+      const choice = j.choices?.[0];
+      const delta = choice?.delta || {};
+      const r = delta.reasoning_content ?? delta.reasoning;
+      if (r) yield { type: 'reasoning', text: r };
+      if (delta.content) yield* think(delta.content);
+      if (choice?.finish_reason) finish = choice.finish_reason;
+    }
+  }
+  if (finish === 'length') yield { type: 'truncated', text: '' };
+}
+
+// Splits streamed content into reasoning (inside <think>…</think>) and content,
+// holding back a tag that is split across chunks.
+function thinkSplitter() {
+  let inThink = false;
+  let pending = '';
+  return function* split(chunk) {
+    let s = pending + chunk;
+    pending = '';
+    while (s) {
+      const tag = inThink ? '</think>' : '<think>';
+      const i = s.indexOf(tag);
+      if (i >= 0) {
+        if (i > 0) yield { type: inThink ? 'reasoning' : 'content', text: s.slice(0, i) };
+        inThink = !inThink;
+        s = s.slice(i + tag.length);
+        continue;
+      }
+      let keep = 0;
+      for (let n = Math.min(tag.length - 1, s.length); n > 0; n--) if (tag.startsWith(s.slice(-n))) { keep = n; break; }
+      if (s.length > keep) yield { type: inThink ? 'reasoning' : 'content', text: s.slice(0, s.length - keep) };
+      pending = s.slice(s.length - keep);
+      break;
+    }
+  };
+}
+
+/**
  * POST one audio file to /audio/transcriptions and return [{start, end, text}]
  * relative to the file. Timestamps matter, so formats are tried in order:
  * verbose_json (OpenAI: has `segments`), then vtt (some proxies, e.g. LiteLLM,

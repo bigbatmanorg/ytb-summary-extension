@@ -3,9 +3,11 @@ export const DEFAULTS = {
   baseUrl: '',
   apiKey: '',
   chatModel: '',
+  fastModel: '', // optional small model for the quick "worth watching?" tier and transcript notes
   sttModel: 'whisper-1',
   language: 'auto',
-  autoSummarize: true,
+  autoSummarize: true, // run the quick tier when the panel opens
+  autoShort: true, // ...and the short summary
 };
 
 export async function loadSettings() {

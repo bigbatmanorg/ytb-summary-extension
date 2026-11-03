@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.2.0 (2026-11-03)
+
+### Added
+
+- **Three summary tiers**, the same mechanism as the Worth Reading? page extension:
+  - **Worth watching?**: a WATCH / SKIM / SKIP verdict plus two sentences, from an optional **fast model**;
+  - **Short summary**: about 2 minutes to read, with chapters when the video has none;
+  - **Detailed summary**: on demand.
+- New settings: **Fast model**, and "also generate the short summary right away".
+- **Streaming**: answers appear as they are written. Reasoning models show "Thinking…" with a timer.
+- Long transcripts are condensed once (by the fast model) and shared by the short and detailed tiers. The verdict reads only the first part.
+- Each tier has its own button and Copy. Results are cached per video for the browser session; a summary cached by 0.1.x shows up as the short tier.
+
+### Changed
+
+- Prompts forbid adding facts from the model's own knowledge.
+- Transcript lines sent to the model span 5–30 s depending on video length, so short videos get precise timestamps.
+
+### Fixed
+
+- Card headers no longer stick over the panel header when scrolling.
+
 ## 0.1.1 (2026-11-03)
 
 ### Fixed
